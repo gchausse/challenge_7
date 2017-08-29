@@ -115,6 +115,17 @@ main section:first-child div article p {
     font-size: 10px;
 }
 
+main section:first-child article svg,
+main section:nth-child(5) article svg {
+    transition-duration: 1s;
+}
+
+main section:first-child article svg:hover,
+main section:nth-child(5) article svg:hover {
+    transform: rotate(360deg);
+}
+
+
 .viewdetails {
     color: white;
     border-radius: 5px;
@@ -131,15 +142,15 @@ main section:first-child div article p {
     padding: 0.5em;
 }
 
-main section:nth-child(2) {
-    
-}
-
 main section:nth-child(2) article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: left;
+}
+
+main section:nth-child(2) div img:hover {	
+    cursor: url("./image/cross.png"), pointer;
 }
 
 main section:nth-child(2) article > * {
@@ -159,7 +170,8 @@ main section:nth-child(2) h6{
 }
 
 main section:nth-child(2) img {
-    width: 100%;
+    float: left;
+    margin-left: 25%;
 }
 
 main section:nth-child(3) p {
@@ -224,7 +236,7 @@ main section:nth-child(5) p {
 main section:nth-child(6) {
     padding: 3em 0;
     width: 100%;
-    background-image: url(../image/banner-bg.jpg);
+    background-image: url(./image/banner-bg.jpg);
     background-size: cover;
     background-position: center;
     color: white;
