@@ -1,0 +1,109 @@
+/*
+Theme Name: Mon theme
+Author: moi
+Description: theme
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@media screen and (max-width: 800px) {
+    #navbar {
+        display: block;
+        height: 40%;
+    }
+
+    #navbar h4 {
+        width: 100%;
+    }
+
+    #navbar ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar ul li {
+        margin: 0.5em auto;
+    }
+
+    header{
+        background-size: 100% 60%;
+    }
+
+    header img {
+        bottom: 30vh;
+    }
+
+    header h1 {
+        padding-top: 20vh;
+    }
+
+    main section {
+        width: 100%
+    }
+
+    main section:first-child div {
+        flex-direction: column;
+    }
+
+    main section:first-child div > * {
+        width: 100%;
+        margin: 2em auto;
+    }
+
+    main section:nth-child(2) article {
+        flex-direction: column;
+    }
+
+    main section:nth-child(2) article > * {
+        width: 100%;
+        margin: 1em auto;
+    }
+
+    #iphone {
+        flex-direction: column-reverse;
+    }
+
+    main section:nth-child(3) div {
+        flex-direction: column;
+    }
+
+    main section:nth-child(3) img {
+        margin: auto 0.5em;
+        padding-top: 1em;
+    }
+    .viewdetails {
+        width: 100%;
+    }
+
+    .visitwebsite {
+        width: 100%;
+    }
+
+    main section:nth-child(4) > * {
+        width: 100%
+    }
+
+    main section:nth-child(5) {
+        flex-direction: column;
+    }
+
+    main section:nth-child(5) article{
+        width: 100%;
+        margin: 2em auto;
+    }
+
+    main section:nth-child(7) div:nth-child(1) {
+        width: 100%;
+    }
+
+    #form, #contact{
+        width: 100%;
+        padding-right: 4em;
+    }
+}

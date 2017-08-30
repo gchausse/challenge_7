@@ -178,6 +178,10 @@ main section:nth-child(3) p {
     margin: 2em auto;
 }
 
+#section2 article:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
 main section:nth-child(3) div {
     display: flex;
     flex-direction: row;

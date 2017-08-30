@@ -14,7 +14,7 @@
         <button>Free Download</button>
         <img src="../image/circle.png" alt="">
         <nav id="navbar">
-            <h4>flatfy</h4>
+            <h4></h4>
             <ul>
                 <li>what is?</li>
                 <li>use it</li>
